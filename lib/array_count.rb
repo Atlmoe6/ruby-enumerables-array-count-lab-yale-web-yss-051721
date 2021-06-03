@@ -3,8 +3,8 @@ def count_strings(array)
   # Return the total number of strings in the provided array using the count enumerable
   
   
-    array.count do |String|
-      String.count
+    array.count do |elemnt|
+      element.count
       binding.pry
  
 end
