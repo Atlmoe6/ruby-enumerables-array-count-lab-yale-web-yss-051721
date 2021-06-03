@@ -4,7 +4,7 @@ def count_strings(array)
   
   
     array.count do |elemnt|
-      element.count
+      element.class == String
       binding.pry
  
 end
