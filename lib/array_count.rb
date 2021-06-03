@@ -13,5 +13,6 @@ def count_empty_strings(array)
   
   array = [ "", "Hello", 4, [], "", "" ]
 array.count do |element| 
-  
+  element == ""
+end
 end
